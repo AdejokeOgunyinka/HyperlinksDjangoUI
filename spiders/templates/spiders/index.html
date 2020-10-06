@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <title>Login form</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'spiders/style.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="login">
+            <h1>Welcome</h1>
+
+            <img class="logo" src="{% static 'spiders/images/spider.png' %}">
+
+            <form class="form-text">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password" id="myInput">
+                <i class="fa fa-eye icon" onclick="myFunction()"></i>
+                <input type="submit" value="LOGIN">
+            </form>
+
+            <div class="tiny-text">
+                <small><a href="#">Don't have an account? Sign Up</a></small>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        function myFunction() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+    </script>
+</html>

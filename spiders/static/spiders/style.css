@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login{
+    width: 30%;
+    height: 600px;
+    background-color: white;
+    margin: 5% 35%;
+    box-sizing: border-box;
+    padding: 15px;
+    position: fixed;
+}
+
+h1{
+    margin: 0;
+    padding: 50px 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.logo{
+    margin: 0 47%;
+    width: 7%
+}
+
+.form-text{
+    padding-top: 50px;
+}
+
+.login input{
+    width: 70%;
+    margin: 0 15%;
+    margin-bottom: 30px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #A9A9A9;
+    background: white;
+    outline: none;
+    height: 30px;
+    color: #A9A9A9;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login input[type="submit"]{
+    width: 70%;
+    margin: 0 15%;
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #68C3F7;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.tiny-text{
+    margin-top: 120px;
+}
+.tiny-text a{
+    width: 50%;
+    margin: 0 25%;
+    text-decoration: none;
+    color:#A9A9A9;
+}
+
+.icon{
+    color: gray;
+    position: relative;
+    bottom: 70px;
+    left: 330px;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body{
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: #00BFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spider-ui{
+    float: left;
+    margin-left: 1px;
+    margin-top: 15px;
+    color: white;
+}
+
+.logo{
+    float: left;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 45px;
+}
+
+.box1, .box2, .box3{
+    width: 95%;
+    height: 200px;
+    background-color: #E5E5E5;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.button1{
+    border:none;
+    outline: none;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+
+.smallbox1, .smallbox2, .smallbox3{
+    background-color: #b4b4c0af;
+    width: 30px;
+    height: 30px;
+}
+
+.number1, .number2, .number3{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.button2, .button3{
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.not-scraped, .scrape-indicator{
+    background-color: #f5dbdb;
+    height: 60px;
+    margin: 30px;
+}
+
+.not-yet-scraped, .scraper-indicator{
+    text-align: center;
+    padding: 20px;
+}
+
+.child-link1{
+    background-color: #f5dbdb;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+.child-link2{
+    background-color: #f5dbdb;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+.child1, .child2{
+    padding-top: 5px;
+}
+
+.parent-link1, .parent-link2, .parent-link3{
+    margin-left: 30px;
+    margin-right: 30px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'spiders/page-style.css' %}">
+
+    <body>
+
+        <div class="navbar">
+            <img class = "logo" src="{% static 'spiders/images/spider.png' %}">
+
+            <p class="spider-ui">SPIDER UI</p>
+
+            <button type="submit" class="button1">LOGOUT</button>
+        </div>
+
+        <h3> Pages Browser </h3>
+
+        <div class="box1">
+            <div class="smallbox1"><p class="number1">1</p></div>
+
+            <button type="submit" class="button2">SCRAPE</button>
+
+            <div class="parent-link1"><p> https://www.figma.com/file/67pQ2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</p></div>
+
+            <div class="child-link1"><p class="child1"><small>https://www.child-link.com/file/67pQ2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</small></p></div>
+
+            <div class="child-link2"><p class="child2"><small>https://www.facebook.com/file/67pQ2FeqkkZJOsx9zY53T/Another?node-id=1%3A2</small></p></div>
+        </div>
+
+        <div class="box2">
+            <div class="smallbox2"><p class="number2">2</p></div>
+
+            <div class="parent-link2"><p> https://www.figma.com/file/67pQ2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</p></div>
+
+            <div class="scrape-indicator">
+                <p class="scraper-indicator"><small>Page scraping in progress...</small></p>
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class="smallbox3"><p class="number3">3</p></div>
+
+            <button type="submit" class="button3">SCRAPE</button>
+
+            <div class="parent-link3"><p> https://www.figma.com/file/67pQ2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</p></div>
+
+            <div class="not-scraped">
+                <p class="not-yet-scraped"><small>No link has been scraped yet for this page</small></p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
